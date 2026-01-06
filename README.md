@@ -12,11 +12,13 @@ The goal of this project is to showcase hands-on Salesforce development skills i
 A custom object is created to manage To-Do items.
 
 **Key Fields:**
-- Title (Text)
-- Description (Long Text)
-- Status (Picklist: New, In Progress, Completed)
-- Is Completed (Checkbox)
+- To Do Name (Text)
+- Status (Picklist: Pending, In Progress, Completed)
+- Priority (Picklist: Low, Medium, High)
 - Due Date (Date)
+- Description (Long Text)
+- Is Completed (Checkbox)
+- Overdue Status(Formula)
 
 ---
 
@@ -80,6 +82,8 @@ By using a record-triggered flow:
 This approach follows Salesforce automation best practices.
 
 ---
+## Due Date Field Feature:
+
 
 ### 7. GitHub Documentation
 This repository includes:

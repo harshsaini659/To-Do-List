@@ -45,11 +45,12 @@ Fields were arranged logically so users can quickly understand task details and 
 ---
 
 ### 4. List Views
-Custom List Views are created for better task tracking:
-- All To-Dos
-- Completed To-Dos
-- Pending To-Dos
-
+Defination- List Views in Salesforce are used to display a filtered list of records based on specific criteria.They allow users to quickly view, filter, and manage records without opening each record individually.
+In the To-Do application, multiple List Views were created to organize tasks based on their status and due dates.
+Examples include:
+- Pending Tasks – tasks that are not yet completed
+- Overdue Tasks – tasks whose due date has passed
+- Completed Tasks – tasks marked as completed
 These list views help users quickly filter and manage tasks.
 
 ---

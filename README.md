@@ -23,19 +23,24 @@ A custom object is created to manage To-Do items.
 ---
 
 ### 2. Lightning App
-A custom Lightning App is created to provide a dedicated workspace for managing To-Do records.
+Defination- Lightning App is a Salesforce UI configuration that provides a customized workspace for users.It allows developers to control which objects, tabs, and navigation items appear on the frontend, without writing any code.
 
-- Includes To-Do object
-- Clean navigation
-- Easy access to list views and records
+-> What I Built Using Lightning App
+For the To-Do application, a custom Lightning App was created to provide a focused and clean user interface.
+The app was configured using Salesforce App Manager and includes only the To-Do custom object.
+This helps users easily access To-Do records, list views, and record details without unnecessary navigation.
 
 ---
 
 ### 3. Page Layout Customization
+Defination- Page Layout Customization in Salesforce is used to control how a record’s detail page appears to users.It defines which fields, buttons, and related lists are visible, their order, and how they are grouped on the page.
 Custom page layout is configured to:
 - Organize fields logically
 - Improve usability
 - Display important fields prominently
+For the To-Do application, the page layout was customized to improve clarity and usability.
+Only relevant fields such as Task Name, Due Date, Status, and Completion flag were displayed.
+Fields were arranged logically so users can quickly understand task details and update records efficiently.
 
 ---
 

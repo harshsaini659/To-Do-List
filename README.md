@@ -66,6 +66,8 @@ This ensured data consistency but caused usability issues during automation.
 ---
 
 ### 6. Record-Triggered Flow Automation (Final Solution for validation rule issue)
+Defination- Record-Triggered Flow is a Salesforce automation that runs automatically when a record is created, updated, or deleted.
+It is used to perform actions without any manual user intervention, based on changes in data.
 
 To improve user experience and automate business logic, the validation rule was removed and replaced with a **Record-Triggered Flow**.
 

@@ -81,6 +81,10 @@ To improve user experience and automate business logic, the validation rule was 
 Validation rules execute **before** record-triggered flows.  
 This caused save-time errors when users marked a task as completed without manually checking the checkbox.
 
+- A Record-Triggered Flow was used to automatically synchronize the task status with the completion checkbox.
+- A separate Validation Rule was implemented to ensure that a Due Date is provided for every To-Do record.
+- Both were kept independent to maintain clear separation between data validation and automation logic.
+
 By using a record-triggered flow:
 - The checkbox is updated automatically
 - User-facing errors are avoided
